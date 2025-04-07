@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variables</title>
+</head>
+<body>
+    <p>Hello There</p>
+    <p>How are you doing?</p>
+    <p>How is life?</p>
+    <p>Hope you are well</p>
+    <script>
+        var name;
+        name = prompt("Hello There! What is your name: ");
+        document.write("Hello there "+ name);
+        document.write("<h1>"+name+"</h1>");
+        document.write(document.baseURI+"<br>");
+        document.write(document.title+"<br>");
+        var pars = document.getElementsByTagName('p');
+        document.write(pars +"<br>");
+        document.write(pars.length);
+    </script>
+    
+</body>
+</html>

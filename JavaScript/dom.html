@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="dom.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <h1>Modify the DOM</h1>
+    <button onclick="document.getElementById('stuff').innerHTML = 'Clicked First Button'">First</button>
+    <button onclick="document.getElementById('stuff').innerHTML = 'Clicked Second Button'">Second</button>
+    <p>this should not change.</p>
+    <p id="stuff">This will change.</p>
+    <p>This should not change either</p>
+    <h1>Changing the style</h1>
+    <p>Javascript can change the style of an HTML Element</p>
+    <button type="button" onclick="openMe()">
+        Open! 
+    </button>
+    <button type="button" onclick="closeMe()">
+    Close!</button>
+    <p id="demo">Extra details.. you can open and close the paragraph using the buttons above</p>
+</body>
+</html>
